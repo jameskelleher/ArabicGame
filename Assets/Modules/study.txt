@@ -1,0 +1,68 @@
+د,ر,س
+ا,ت,ن,ي,و,م,أ
+درس
+
+he studied
+درستْ
+ت
+she studied
+درست
+ت
+you (fem.) studied
+درستُ
+ت
+I studied
+درسنا
+ن,ا
+we studied
+درستَ
+ت
+you (masc.) studied
+درستم
+ت,م
+you all (masc.) studied
+درستنّ
+ت,ن
+you all (fem.) studied
+درسوا
+و,ا
+they (masc.) studied
+درستما
+ت,م,ا
+you two (masc. + fem.) studied
+درسا
+ا
+they (dual masc.) studied
+درستا
+ت,ا
+they (dual fem.) studied
+يدرس
+ي
+he studies
+تدرس
+ت
+she studies/you (masc.) study
+تدرسين
+ت,ي,ن
+you (fem.) studies/you all (fem.) study
+أدرس
+أ
+I study
+ندرس
+ن
+we study
+تدرسون
+ت,و,ن
+you all (masc.) study
+يدرسون
+ي,و,ن
+they (masc.) study
+يدرسن
+ي,ن
+they (fem.) study
+تدرسانِ
+ت,ا,ن
+you two (m+f) study/they (dual fem) study
+يدرسانِ
+ي,ا,ن
+they (dual masc.) study

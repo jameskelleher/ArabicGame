@@ -1,0 +1,68 @@
+خ,ر,ج
+ا,ت,ن,ي,و,م,أ
+خرج
+
+he left, went out
+خرجتْ
+ت
+she left
+خرجت
+ت
+you (fem.) left
+خرجتُ
+ت
+I left
+خرجنا
+ن,ا
+we left
+خرجتَ
+ت
+you (masc.) left
+خرجتم
+ت,م
+you all (masc.) left
+خرجتنّ
+ت,ن
+you all (fem.) left
+خرجوا
+و,ا
+they (masc.) left
+خرجتما
+ت,م,ا
+you two (masc. + fem.) left
+خرجا
+ا
+they (dual masc.) left
+خرجتا
+ت,ا
+they (dual fem.) left
+يخرج
+ي
+he leaves
+تخرج
+ت
+she leaves/you (masc.) leaves
+تخرجين
+ت,ي,ن
+you (fem.) leave/you all (fem.) leave
+أخرج
+أ
+I leave
+نخرج
+ن
+we leave
+تخرجون
+ت,و,ن
+you all (masc.) leave
+يخرجون
+ي,و,ن
+they (masc.) leave
+يخرجن
+ي,ن
+they (fem.) leave
+تخرجانِ
+ت,ا,ن
+you two (m+f) leave/they (dual fem) leave
+يِخرجان
+ي,ا,ن
+they (dual masc.) leave

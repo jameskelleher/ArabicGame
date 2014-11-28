@@ -1,0 +1,69 @@
+ع,م,ل
+ا,ت,ن,ي,و,م,أ
+عمل
+
+he worked
+
+عملتْ
+ت
+she worked
+عملت
+ت
+you (fem.) worked
+عملتُ
+ت
+I worked
+عملنا
+ن,ا
+we worked
+عملتَ
+ت
+you (masc.) worked
+عملتم
+ت,م
+you all (masc.) worked
+عملتنّ
+ت,ن
+you all (fem.) worked
+عملوا
+و,ا
+they (masc.) worked
+عملتما
+ت,م,ا
+you two (masc. + fem.) worked
+عملا
+ا
+they (dual masc.) worked
+عملتا
+ت,ا
+they (dual fem.) worked
+يعمل
+ي
+he works
+تعمل
+ت
+she works/you (masc.) work
+تعملين
+ت,ي,ن
+you (fem.) works/you all (fem.) work
+أعمل
+أ
+I work
+نعمل
+ن
+we work
+تعملون
+ت,و,ن
+you all (masc.) work
+يعملون
+ي,و,ن
+they (masc.) work
+يعملن
+ي,ن
+they (fem.) work
+تعملانِ
+ت,ا,ن
+you two (m+f) work/they (dual fem) work
+يِعملان
+ي,ا,ن
+they (dual masc.) work

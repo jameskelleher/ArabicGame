@@ -1,0 +1,68 @@
+ج,م,ع
+ا,ت,ن,ي,و,م,أ
+جمع
+
+he gathered
+جمعتْ
+ت
+she gathered
+جمعت
+ت
+you (fem.) gathered
+جمعتُ
+ت
+I gathered
+جمعنا
+ن,ا
+we gathered
+جمعتَ
+ت
+you (masc.) gathered
+جمعتم
+ت,م
+you all (masc.) gathered
+جمعتنّ
+ت,ن
+you all (fem.) gathered
+جمعوا
+و,ا
+they (masc.) gathered
+جمعتما
+ت,م,ا
+you two (masc. + fem.) gathered
+جمعا
+ا
+they (dual masc.) gathered
+جمعتا
+ت,ا
+they (dual fem.) gathered
+يجمع
+ي
+he gathers
+تجمع
+ت
+she gathers/you (masc.) gather
+تجمعين
+ت,ي,ن
+you (fem.) gather/you all (fem.) gather
+أجمع
+أ
+I gather
+نجمع
+ن
+we gather
+تجمعون
+ت,و,ن
+you all (masc.) gather
+يجمعون
+ي,و,ن
+they (masc.) gather
+يجمعن
+ي,ن
+they (fem.) gather
+تجمعانِ
+ت,ا,ن
+you two (m+f) gather/they (dual fem) gather
+يِجمعان
+ي,ا,ن
+they (dual masc.) gather
