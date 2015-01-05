@@ -9,20 +9,28 @@ public class InputBoxController : MonoBehaviour {
 	[HideInInspector] public bool Occupied { get; set; }
 	[HideInInspector] public string ETLetter { get; set; }
 
+	private Sprite defaultSprite;
+	private SpriteRenderer spriteRenderer;
+
 	private GameObject _embeddedTile;
 	[HideInInspector] public GameObject EmbeddedTile {
 		get {
+			Debug.Log("Getting ET");
 			return this._embeddedTile;
 		}
 		set {
 			this._embeddedTile = value;
+			Debug.Log ("Setting ET");
 			if (value == null) {
 				Occupied = false;
 				ETLetter = "";
+				spriteRenderer.sprite = defaultSprite;
 			}
 			else {
+				Debug.Log("Setting occupied to true");
 				Occupied = true;
 				ETLetter = this._embeddedTile.GetComponent<LetterController>().character;
+				spriteRenderer.sprite = null;
 			}
 		}
 	}
@@ -39,14 +47,20 @@ public class InputBoxController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Occupied = false;
-		ETLetter = "";
-		textControl = GameObject.Find("Input Text GUI").GetComponent<InputTextController>();
-		if (RootLetter != "") {
+		spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
+		defaultSprite = spriteRenderer.sprite;
+
+		textControl = GameObject.Find("Arabic Text GUI").GetComponent<InputTextController>();
+		if (!string.IsNullOrEmpty(RootLetter)) {
 			IsRoot = true;
 			ETLetter = RootLetter;
+			Occupied = true;
 		}
-//		if (Index == 4) { Debug.Log ("IsRoot = " + IsRoot);}
+		else {
+			IsRoot = false;
+			ETLetter = "";
+			Occupied = false;
+		}
 	}
 	
 	// Update is called once per frame

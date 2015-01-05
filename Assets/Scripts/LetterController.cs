@@ -14,7 +14,6 @@ public class LetterController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("My character is " + character);
 		defaultPosition = transform.position;
 	}
 
@@ -26,7 +25,8 @@ public class LetterController : MonoBehaviour {
 			transform.position = newPosition;
 		}
 		else if (box == null) {
-			transform.position = defaultPosition;
+			var letterParent = GameObject.Find("Letters");
+			transform.position = defaultPosition + letterParent.transform.position;
 		}
 		//else the tile is left where it is, i.e. in the input box
 	}
@@ -49,7 +49,8 @@ public class LetterController : MonoBehaviour {
 				et.GetComponent<LetterController>().box = null;
 			}
 
-			box.GetComponent<InputBoxController>().EmbeddedTile = this.gameObject;
+			box.GetComponent<InputBoxController>().setET(this);
+			Debug.Log(box.GetComponent<InputBoxController>().EmbeddedTile.Equals(this.gameObject));
 
 			Vector3 newPosition = box.transform.position;
 			newPosition.z = defaultPosition.z;
@@ -58,33 +59,33 @@ public class LetterController : MonoBehaviour {
 		}
 	}
 
-	public void LetterCollisionReplacement(GameObject coming, GameObject going) {
-		GameObject box = coming.GetComponent<LetterController>().box;
-		LetterCollisionReplacement(coming, going, box);
-	}
-
-	public void LetterCollisionReplacement(GameObject coming, GameObject going, GameObject box) {
-		going.transform.position = going.GetComponent<LetterController>().defaultPosition;
-		going.GetComponent<LetterController>().box = null;
-		box.GetComponent<InputBoxController>().EmbeddedTile = coming;
-
-		Vector3 newPosition = box.transform.position;
-		newPosition.z = defaultPosition.z;
-		coming.transform.position = newPosition;
-	}
+//	public void LetterCollisionReplacement(GameObject coming, GameObject going) {
+//		GameObject box = coming.GetComponent<LetterController>().box;
+//		LetterCollisionReplacement(coming, going, box);
+//	}
+//
+//	public void LetterCollisionReplacement(GameObject coming, GameObject going, GameObject box) {
+//		going.transform.position = going.GetComponent<LetterController>().defaultPosition;
+//		going.GetComponent<LetterController>().box = null;
+//		box.GetComponent<InputBoxController>().EmbeddedTile = coming;
+//
+//		Vector3 newPosition = box.transform.position;
+//		newPosition.z = defaultPosition.z;
+//		coming.transform.position = newPosition;
+//	}
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.gameObject.tag == "InputBox" && !other.gameObject.GetComponent<InputBoxController>().IsRoot) {
+			Debug.Log("Set box: " + other.transform.name);
 			box = other.gameObject;
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		if (other.gameObject.tag == "InputBox" && other.gameObject == this.box) {
-			InputBoxController bc = box.GetComponent<InputBoxController>();
-			if (bc.EmbeddedTile == this.gameObject) {
-				bc.EmbeddedTile = null;
-			}
+			InputBoxController bc = other.gameObject.GetComponent<InputBoxController>();
+			bc.EmbeddedTile = null;
+			Debug.Log("Setting that box to null");
 			box = null;
 		}
 	}

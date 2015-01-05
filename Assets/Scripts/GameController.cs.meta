@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 708410d7194e344dc8b4e4d8f574284f
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - letterPrefab: {instanceID: 0}
+  - diacritPrefab: {instanceID: 0}
+  - inputPrefab: {fileID: 100000, guid: 17c62ae6ad6c94bbcb1c742f646caa8c, type: 2}
+  - letterList: {instanceID: 0}
+  - module: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
